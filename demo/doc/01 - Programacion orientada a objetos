@@ -15,16 +15,19 @@ Que es un objeto
         precio -> read only -> sum(precio-ingredientes) * 1,2
         ingredientes: [{id,name,precio}]
     }
-
+   
     la pizza se puede crear
     la pizza se puede modificar
-    se le puede añadir un ingrediente
-    se le puede quitar un ingrediente
+    se le pueden añadir un ingrediente
+    se le puede eliminar un ingrediente
 
-    abstract -> no se puede crear una instancia de ese objeto.
+    abstract->clase de la que no se pueden crear instancias
 
-    private -> la variable de instancia no puede acceder.
+    public->la variable de instancia puede acceder.
+        Foo foo = new Foo()
+        foo.    
+    private->la variable de instancia no puede acceder
+        this==variable de instancia pero puede acceder a lo private        
+    protected->los herederos tienen acceso y no la instancia
 
-    public -> está accesible desde cualquier sitio.
-
-    
+    la herencia->palabra reservada extends
